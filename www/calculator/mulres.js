@@ -1,0 +1,2 @@
+﻿document.getElementById("v").value=document.getElementById("o").innerHTML.replace(/<sup>.*?<\/sup>/g, "");
+document.getElementById("h").value=document.getElementById("o").innerHTML.replace(/<sup>.*?<\/sup>/g, "");

@@ -1,0 +1,1 @@
+document.getElementById("mat").innerHTML=document.getElementById("mat").innerHTML.replace(/[abct=\*\-\+]|(\/(?=\d|[abct]))|(\d(?!>))/g, "<span class=\"oper\">$&</span>");
